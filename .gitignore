@@ -1,0 +1,15 @@
+bin
+obj
+releases
+.vs
+*.dll
+Properties
+RedirectLogs.cs
+*.csproj
+*.csproj.user
+*.sln
+*.command
+*.temp
+*.config
+packages
+*.exe

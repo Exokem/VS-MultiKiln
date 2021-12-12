@@ -1,0 +1,82 @@
+﻿{
+	"code": "kiln",
+	"class": "kiln",
+	
+	"attributes": {
+		"fuelTypes": {
+			"firewood": {
+				"time": 1800,
+				"size": 32
+			},
+			"peatbrick": {
+				"time": 1440,
+				"size": 16
+			},
+			"charcoal": {
+				"time": 900,
+				"size": 8
+			},
+			"ore-bituminouscoal": {
+				"time": 1080,
+				"size": 8
+			},
+			"ore-lignite": {
+				"time": 1260,
+				"size": 8
+			},
+			"coke": {
+				"time": 900,
+				"size": 8
+			}
+		}
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "blue", "brown", "fire", "red" ]
+		}
+	],
+	"shape": { "base": "kiln:block/kiln/empty" },
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"drawtype": "JSON",
+	"blockmaterial": "Ceramic",
+	"creativeinventory": {
+		"general": [ "*" ],
+		"construction": [ "*" ]
+	},
+	"replaceable": 700,
+	"resistance": 2,
+	"lightAbsorption": 99,
+	"textures": {
+		"brick": {
+			"base": "game:block/clay/brick/{type}*"
+		},
+		"fuel": {
+			"base": "game:block/wood/firewood/side"
+		}
+	},
+	"sounds": {
+		"walk": "game:walk/stone",
+		"place": "game:block/ceramicplace"
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.2,
+			"y": -1.1,
+			"z": -0.8
+		},
+		"rotation": {
+			"x": -2,
+			"y": 25,
+			"z": -78
+		},
+		"scale": 0.37
+	}
+}

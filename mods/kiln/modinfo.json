@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "kiln",
+  "name": "Kiln",
+  "author": "exokem",
+  "description": "",
+  "version": "1.0.0",
+  "dependency": {
+    "game": ""
+  }
+}
